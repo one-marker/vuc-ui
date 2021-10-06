@@ -1,0 +1,45 @@
+Date : 2021-10-06 10:23:53
+Directory : /Users/marker/Desktop/vuc-ui
+Total : 11 files,  28281 codes, 2 comments, 44 blanks, all 28327 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     27,955 |          0 |          2 |     27,957 |
+| Vue.js     |          2 |        265 |          1 |         24 |        290 |
+| JavaScript |          4 |         23 |          0 |          8 |         31 |
+| Markdown   |          1 |         19 |          0 |          6 |         25 |
+| HTML       |          1 |         18 |          1 |          3 |         22 |
+| XML        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                          |         11 |     28,281 |          2 |         44 |     28,327 |
+| public                                                     |          1 |         18 |          1 |          3 |         22 |
+| src                                                        |          5 |        279 |          1 |         31 |        311 |
+| src/assets                                                 |          1 |          1 |          0 |          1 |          2 |
+| src/components                                             |          1 |        222 |          0 |         14 |        236 |
+| src/plugins                                                |          1 |          5 |          0 |          3 |          8 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/marker/Desktop/vuc-ui/README.md                     | Markdown   |         19 |          0 |          6 |         25 |
+| /Users/marker/Desktop/vuc-ui/babel.config.js               | JavaScript |          5 |          0 |          1 |          6 |
+| /Users/marker/Desktop/vuc-ui/package-lock.json             | JSON       |     27,908 |          0 |          1 |     27,909 |
+| /Users/marker/Desktop/vuc-ui/package.json                  | JSON       |         47 |          0 |          1 |         48 |
+| /Users/marker/Desktop/vuc-ui/public/index.html             | HTML       |         18 |          1 |          3 |         22 |
+| /Users/marker/Desktop/vuc-ui/src/App.vue                   | Vue.js     |         43 |          1 |         10 |         54 |
+| /Users/marker/Desktop/vuc-ui/src/assets/logo.svg           | XML        |          1 |          0 |          1 |          2 |
+| /Users/marker/Desktop/vuc-ui/src/components/HelloWorld.vue | Vue.js     |        222 |          0 |         14 |        236 |
+| /Users/marker/Desktop/vuc-ui/src/main.js                   | JavaScript |          8 |          0 |          3 |         11 |
+| /Users/marker/Desktop/vuc-ui/src/plugins/vuetify.js        | JavaScript |          5 |          0 |          3 |          8 |
+| /Users/marker/Desktop/vuc-ui/vue.config.js                 | JavaScript |          5 |          0 |          1 |          6 |
+| Total                                                      |            |     28,281 |          2 |         44 |     28,327 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
