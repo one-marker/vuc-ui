@@ -81,7 +81,7 @@
               <v-btn
                 color="blue darken-1"
                 text
-                @click="save"
+                @click="created"
               >
                 Сохрнаить
               </v-btn>
@@ -222,7 +222,61 @@
           this.editedIndex = -1
         })
       },
+      async created(){
+        let response = await fetch("http://localhost:8082/nodes/", {
+                method: "GET",
+                headers: {
+                  "Content-Type": "text/plain",
+                },
+             
+   
+              });
 
+      // получить один заголовок
+      alert(response.headers.get('Content-Type')); // application/json; charset=utf-8
+
+      },
+      created1() {
+     
+    fetch("http://localhost:8082/nodes/", {
+                method: "GET",
+                headers: {
+                  "Content-Type": "application/json"
+                },
+                mode: "no-cors",
+   
+              })
+    .then(async response => {
+      const data = await response.text();
+      // check for error response
+       
+      if (!response.ok) {
+      
+        // get error message from body or default to response statusText
+        const error = (data && data.message) || response.statusText;
+        return Promise.reject(error);
+      }
+     
+  
+      this.totalVuePackages = data.total;
+    })
+    .catch(error => {
+      this.errorMessage = error;
+      alert(error);
+      console.error("There was an error!", error);
+    });
+
+        // fetch("http://localhost:8082/nodes/", {
+        //         method: "GET",
+        //         headers: {
+        //           "Content-Type": "application/json"
+        //         },
+        //         mode: "no-cors",
+   
+        //       })
+        //   .then(response =>alert(response.json()));
+   
+      },
       save () {
         if (this.editedIndex > -1) {
           Object.assign(this.desserts[this.editedIndex], this.editedItem)
